@@ -1,0 +1,406 @@
+panels: 
+# jmenu_Ph (Philippines)
+  jmenu_Ph:
+    perm: default
+    rows: '6'
+    title: 'Philippines'
+    command: jmenu_Ph
+    empty: air
+    emptyID: '15' 
+    item:      
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFiY2RiMzU1NGZmMzE3NTk4MjNhMTJiOWM4YjkxODZjZDI5NTQ0ZDE4NDE5ZGNlNTUxY2Y3ODNhZDAwNmNkZiJ9fX0=
+        name: 'Philippines'
+      '29': # Luzon
+        material: white_concrete
+        name: '&bLuzon'
+        commands: 
+        - open= jmenu_Ph_Luzon
+        lore:
+        - Bantagas
+        - Cavite
+        - Ilocos
+        - Manila
+      '31': # Mindanao
+        material: white_concrete
+        name: '&bMindanao'
+        commands:
+        - warp ph,davao
+        lore:
+        - Davao City
+        - This is the only build in Mindanao!
+      '33': # Visayas
+        material: white_concrete
+        name: '&bVisayas'
+        commands:
+        - open= jmenu_Ph_Visayas
+        lore:
+        - Cebu City
+        - Tacloban City
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu
+      '1': # Outline (bedrock wont like it but deal with it)
+        name: 
+        material: black_stained_glass_pane
+      '2':
+        name: 
+        material: black_stained_glass_pane
+      '3':
+        name: 
+        material: black_stained_glass_pane
+      '4':
+        name: 
+        material: black_stained_glass_pane
+      '5':
+        name:
+        material: black_stained_glass_pane
+      '6':
+        name:
+        material: black_stained_glass_pane
+      '7':
+        name:
+        material: black_stained_glass_pane
+      '8':
+        name:
+        material: black_stained_glass_pane
+      '9':
+        name:
+        material: black_stained_glass_pane
+      '17':
+        name:
+        material: black_stained_glass_pane
+      '18':
+        name:
+        material: black_stained_glass_pane
+      '26':
+        name:
+        material: black_stained_glass_pane
+      '27':
+        name:
+        material: black_stained_glass_pane
+      '35':
+        name:
+        material: black_stained_glass_pane
+      '36':
+        name:
+        material: black_stained_glass_pane
+      '44':
+        name:
+        material: black_stained_glass_pane
+      '0':
+        name:
+        material: black_stained_glass_pane
+      '46':
+        name:
+        material: black_stained_glass_pane
+      '47':
+        name:
+        material: black_stained_glass_pane
+      '48':
+        name:
+        material: black_stained_glass_pane
+      '49':
+        name:
+        material: black_stained_glass_pane
+      '50':
+        name:
+        material: black_stained_glass_pane
+      '51':
+        name:
+        material: black_stained_glass_pane
+      '52':
+        name:
+        material: black_stained_glass_pane
+      '53':
+        name:
+        material: black_stained_glass_pane
+  jmenu_Ph_Visayas:
+    perm: default
+    rows: '6'
+    title: 'Visayas'
+    command: jmenu_Ph_Visayas
+    empty: air
+    emptyID: '15' 
+    item:
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu_Ph
+      '1': # Outline (bedrock wont like it but deal with it)
+        name: 
+        material: black_stained_glass_pane
+      '2':
+        name: 
+        material: black_stained_glass_pane
+      '3':
+        name: 
+        material: black_stained_glass_pane
+      '4':
+        name: 
+        material: black_stained_glass_pane
+      '5':
+        name:
+        material: black_stained_glass_pane
+      '6':
+        name:
+        material: black_stained_glass_pane
+      '7':
+        name:
+        material: black_stained_glass_pane
+      '8':
+        name:
+        material: black_stained_glass_pane
+      '9':
+        name:
+        material: black_stained_glass_pane
+      '17':
+        name:
+        material: black_stained_glass_pane
+      '18':
+        name:
+        material: black_stained_glass_pane
+      '26':
+        name:
+        material: black_stained_glass_pane
+      '27':
+        name:
+        material: black_stained_glass_pane
+      '35':
+        name:
+        material: black_stained_glass_pane
+      '36':
+        name:
+        material: black_stained_glass_pane
+      '44':
+        name:
+        material: black_stained_glass_pane
+      '0':
+        name:
+        material: black_stained_glass_pane
+      '46':
+        name:
+        material: black_stained_glass_pane
+      '47':
+        name:
+        material: black_stained_glass_pane
+      '48':
+        name:
+        material: black_stained_glass_pane
+      '49':
+        name:
+        material: black_stained_glass_pane
+      '50':
+        name:
+        material: black_stained_glass_pane
+      '51':
+        name:
+        material: black_stained_glass_pane
+      '52':
+        name:
+        material: black_stained_glass_pane
+      '53':
+        name:
+        material: black_stained_glass_pane
+      '30':
+        material: white_concrete
+        name: '&bCebu'
+        commands:
+        - open= jmenu_Ph_Visayas_Cebu
+      '32':
+        material: white_concrete
+        name: '&bTacloban City'
+        commands:
+        - warp ph,tablobancity
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFiY2RiMzU1NGZmMzE3NTk4MjNhMTJiOWM4YjkxODZjZDI5NTQ0ZDE4NDE5ZGNlNTUxY2Y3ODNhZDAwNmNkZiJ9fX0=
+        name: 'Philippines'
+  jmenu_Ph_Visayas_Cebu:
+    perm: default
+    rows: '1'
+    title: 'Cebu'
+    command: jmenu_Ph
+    empty: air
+    emptyID: '15' 
+    item:
+        '0':
+            material: white_concrete
+            name: '&bCebu Cityhall'
+            commands:
+            - warp ph,cebu
+        '1':
+            material: white_concrete
+            name: '&bCebu Business Park'
+            commands:
+            - warp ph,cebu,businesspark
+        '8':
+            material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+            name: '&cBack'
+            commands:
+            - open= jmenu_Ph_Visayas
+  jmenu_Ph_Luzon:
+    perm: default
+    rows: '6'
+    title: 'Luzon'
+    command: jmenu_Ph_Luzon
+    empty: air
+    emptyID: '15' 
+    item:  
+        '1': # Outline (bedrock wont like it but deal with it)
+            name: 
+            material: black_stained_glass_pane
+        '2':
+            name: 
+            material: black_stained_glass_pane
+        '3':
+            name: 
+            material: black_stained_glass_pane
+        '4':
+            name: 
+            material: black_stained_glass_pane
+        '5':
+            name:
+            material: black_stained_glass_pane
+        '6':
+            name:
+            material: black_stained_glass_pane
+        '7':
+            name:
+            material: black_stained_glass_pane
+        '8':
+            name:
+            material: black_stained_glass_pane
+        '9':
+            name:
+            material: black_stained_glass_pane
+        '17':
+            name:
+            material: black_stained_glass_pane
+        '18':
+            name:
+            material: black_stained_glass_pane
+        '26':
+            name:
+            material: black_stained_glass_pane
+        '27':
+            name:
+            material: black_stained_glass_pane
+        '35':
+            name:
+            material: black_stained_glass_pane
+        '36':
+            name:
+            material: black_stained_glass_pane
+        '44':
+            name:
+            material: black_stained_glass_pane
+        '0':
+            name:
+            material: black_stained_glass_pane
+        '46':
+            name:
+            material: black_stained_glass_pane
+        '47':
+            name:
+            material: black_stained_glass_pane
+        '48':
+            name:
+            material: black_stained_glass_pane
+        '49':
+            name:
+            material: black_stained_glass_pane
+        '50':
+            name:
+            material: black_stained_glass_pane
+        '51':
+            name:
+            material: black_stained_glass_pane
+        '52':
+            name:
+            material: black_stained_glass_pane
+        '53':
+            name:
+            material: black_stained_glass_pane            
+        '28':
+            name: '&bBatangas'
+            material: white_concrete
+            commands:
+            - warp ph,batangas,oldtaal
+            lore:
+            - Old Taal Church Ruins
+            - This is the only build in Batangas!
+        '30':
+            name: '&bCavite'
+            material: white_concrete
+            commands:
+            - warp ph,cavite,kawit,aguinaldoshrine
+            lore:
+            - Aguinaldo Shrine, Kawit
+            - This is the only build in Cavite!
+        '32':
+            name: '&bIlocos'
+            material: white_concrete
+            commands:
+            - warp ph,ilocos,vigan
+            lore:
+            - Vigan City
+            - This is the only build in Ilocos!
+        '34':
+            name: '&bManila'
+            material: white_concrete
+            commands:
+            - open= jmenu_Ph_Luzon_Manila
+            lore:
+            - San Agustin Church
+            - Mandaluyong Megamall
+            - Makati
+            - 3 more...
+        '13':
+            material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFiY2RiMzU1NGZmMzE3NTk4MjNhMTJiOWM4YjkxODZjZDI5NTQ0ZDE4NDE5ZGNlNTUxY2Y3ODNhZDAwNmNkZiJ9fX0=
+            name: 'Philippines'
+        '45':
+            material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+            name: '&cBack'
+            commands:
+            - open= jmenu
+  jmenu_Ph_Luzon_Manila:
+    perm: default
+    rows: '1'
+    title: 'Manila'
+    command: jmenu_Ph_Luzon_Manila
+    empty: air
+    emptyID: '15' 
+    item:  
+        '0':
+            material: white_concrete
+            name: '&bSan Agustin Church'
+            commands:
+            - warp ph,intramuros,sanagustin
+        '1':
+            material: white_concrete
+            name: '&bMandaluyong Megamall'
+            commands:
+            - warp ph,mandaluyong,megamall
+        '2':
+            material: white_concrete
+            name: '&bMakati'
+            commands:
+            - warp ph,manilla,makati
+        '3':
+            material: white_concrete
+            name: '&bQuiapo'
+            commands:
+            - warp ph,manila,quiapo
+        '4':
+            material: white_concrete
+            name: '&bMall of Asia Arena'
+            commands: 
+            - warp ph,pasay,moaarena
+        '8':
+            material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+            name: '&cBack'
+            commands:
+            - open= jmenu_Ph_Luzon

@@ -1,0 +1,10 @@
+panels:
+# Most Detailed
+  jmenu_Detailed:
+    perm: default
+    rows: '6'
+    title: 'Most Detailed'
+    command: jmenu_Detailed
+    empty: air
+    emptyID: '15' 
+    item:     

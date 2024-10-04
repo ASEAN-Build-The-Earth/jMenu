@@ -1,0 +1,421 @@
+panels:
+#Singapore
+  jmenu_Sg:
+    perm: default
+    rows: '6'
+    title: 'Singapore'
+    command: jmenu_Sg
+    empty: air
+    emptyID: '15'
+    item:      
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: 'Singapore'
+      '31': ## #Central Singapore
+        material: white_concrete
+        ID: 0
+        name: '&bCentral Singapore'
+        commands:
+        - open= jmenu_Sg_Central
+        lore:
+        - Marina Bay Sands
+        - Chinatown
+        - Cityhall
+        - Parkroyal
+        - Merlion
+      '22': ##Northern Singapore:
+        material: white_concrete
+        ID: 0
+        name: '&bNorthern Singapore'
+        commands:
+        - open= jmenu_Sg_north
+      '40': #Southern Singapore
+        material: white_concrete
+        ID: 0
+        name: '&bSouthern Singapore'
+        commands:
+        - warp sg,queenstown_dawson_road
+        lore:
+        - Dawson Road, Queenstown
+        - This is the only build in Southern Singapore!
+      '32': #-Eastern Singapore+ 
+        material: white_concrete
+        ID: 0
+        name: '&eEastern Singapore'
+        commands:
+        - warp sg,tampines_east
+        lore:
+        - Tampines
+        - This is the only build in Eastern Singpore
+      '30': #-Western Singapore
+        material: white_concrete
+        ID: 0
+        name: '&eWestern Singapore'
+        commands:
+        - open= jmenu_Sg_West
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu
+      '1': # Outline (bedrock wont like it but deal with it)
+        name: 
+        material: black_stained_glass_pane
+      '2':
+        name: 
+        material: black_stained_glass_pane
+      '3':
+        name: 
+        material: black_stained_glass_pane
+      '4':
+        name: 
+        material: black_stained_glass_pane
+      '5':
+        name:
+        material: black_stained_glass_pane
+      '6':
+        name:
+        material: black_stained_glass_pane
+      '7':
+        name:
+        material: black_stained_glass_pane
+      '8':
+        name:
+        material: black_stained_glass_pane
+      '9':
+        name:
+        material: black_stained_glass_pane
+      '17':
+        name:
+        material: black_stained_glass_pane
+      '18':
+        name:
+        material: black_stained_glass_pane
+      '26':
+        name:
+        material: black_stained_glass_pane
+      '27':
+        name:
+        material: black_stained_glass_pane
+      '35':
+        name:
+        material: black_stained_glass_pane
+      '36':
+        name:
+        material: black_stained_glass_pane
+      '44':
+        name:
+        material: black_stained_glass_pane
+      '0':
+        name:
+        material: black_stained_glass_pane
+      '46':
+        name:
+        material: black_stained_glass_pane
+      '47':
+        name:
+        material: black_stained_glass_pane
+      '48':
+        name:
+        material: black_stained_glass_pane
+      '49':
+        name:
+        material: black_stained_glass_pane
+      '50':
+        name:
+        material: black_stained_glass_pane
+      '51':
+        name:
+        material: black_stained_glass_pane
+      '52':
+        name:
+        material: black_stained_glass_pane
+      '53':
+        name:
+        material: black_stained_glass_pane
+#jmenu_Sg_East %%%%%%%%%%%%%%%%%%%%%%%%%%%%% NOT USED YET%%%%%%%%%%%%%%%%%%%%%%% WAIT FOR ME TO SCHEM CHANGI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  jmenu_Sg_East:
+    perm: default
+    rows: '6'
+    title: 'Eastern Singapore'
+    command: jmenu_Sg_East
+    empty: air
+    emptyID: '15' 
+    item:   
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cEastern Singapore'
+      '29': #-Eastern Singapore+ Changi Airport
+        material: white_concrete
+        ID: 0
+        name: '&bChangi Airport'
+        commands:
+        - open= jmenu_Sg_East_ChangiAirport
+      '30': 
+        material: air
+        ID: 7
+      '31': #Sarwak
+        material: white_concrete
+        ID: 0
+        name: '&bSarawak'
+        commands:
+        - open= jmenu_My_east_Sarawak
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu_Sg
+#jmenu_Sg_Central
+  jmenu_Sg_Central:
+    perm: default
+    rows: '6'
+    title: 'Central Singapore'
+    command: jmenu_Sg_Central
+    empty: air
+    item:
+      '1': # Outline (bedrock wont like it but deal with it)
+        name: 
+        material: black_stained_glass_pane
+      '2':
+        name: 
+        material: black_stained_glass_pane
+      '3':
+        name: 
+        material: black_stained_glass_pane
+      '4':
+        name: 
+        material: black_stained_glass_pane
+      '5':
+        name:
+        material: black_stained_glass_pane
+      '6':
+        name:
+        material: black_stained_glass_pane
+      '7':
+        name:
+        material: black_stained_glass_pane
+      '8':
+        name:
+        material: black_stained_glass_pane
+      '9':
+        name:
+        material: black_stained_glass_pane
+      '17':
+        name:
+        material: black_stained_glass_pane
+      '18':
+        name:
+        material: black_stained_glass_pane
+      '26':
+        name:
+        material: black_stained_glass_pane
+      '27':
+        name:
+        material: black_stained_glass_pane
+      '35':
+        name:
+        material: black_stained_glass_pane
+      '36':
+        name:
+        material: black_stained_glass_pane
+      '44':
+        name:
+        material: black_stained_glass_pane
+      '0':
+        name:
+        material: black_stained_glass_pane
+      '46':
+        name:
+        material: black_stained_glass_pane
+      '47':
+        name:
+        material: black_stained_glass_pane
+      '48':
+        name:
+        material: black_stained_glass_pane
+      '49':
+        name:
+        material: black_stained_glass_pane
+      '50':
+        name:
+        material: black_stained_glass_pane
+      '51':
+        name:
+        material: black_stained_glass_pane
+      '52':
+        name:
+        material: black_stained_glass_pane
+      '53':
+        name:
+        material: black_stained_glass_pane
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: '&cCentral Singapore'
+      '20':
+        name: '&bMarina Bay Sands'
+        material: white_concrete
+        commands:
+        - warp sg,bayfront,mbs
+      '22':
+        name: '&bChinatown'
+        material: white_concrete
+        commands:
+        - warp sg,chinatown
+      '24': 
+        name: '&bCityhall'
+        material: white_concrete
+        commands:
+        - warp sg,cityhall_padang
+      '30':
+        name: '&bParkroyal'
+        material: white_concrete
+        commands:
+        - warp sg,havelock,parkroyal
+        lore:
+        - Havelock
+      '32':
+        name: '&bMerlion'
+        material: white_concrete
+        commands:
+        - warp sg,rafflesplace,merlion
+        lore:
+        - Rafflesplace
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu_Sg
+#- jmenu_Sg_West
+  jmenu_Sg_West:
+    perm: default
+    rows: '6'
+    title: 'Western Singapore'
+    command:  jmenu_Sg_West
+    empty: air
+    emptyID: '15' 
+    item:   
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: '&cWestern Singapore'
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu_Sg
+      '1': # Outline (bedrock wont like it but deal with it)
+        name: 
+        material: black_stained_glass_pane
+      '2':
+        name: 
+        material: black_stained_glass_pane
+      '3':
+        name: 
+        material: black_stained_glass_pane
+      '4':
+        name: 
+        material: black_stained_glass_pane
+      '5':
+        name:
+        material: black_stained_glass_pane
+      '6':
+        name:
+        material: black_stained_glass_pane
+      '7':
+        name:
+        material: black_stained_glass_pane
+      '8':
+        name:
+        material: black_stained_glass_pane
+      '9':
+        name:
+        material: black_stained_glass_pane
+      '17':
+        name:
+        material: black_stained_glass_pane
+      '18':
+        name:
+        material: black_stained_glass_pane
+      '26':
+        name:
+        material: black_stained_glass_pane
+      '27':
+        name:
+        material: black_stained_glass_pane
+      '35':
+        name:
+        material: black_stained_glass_pane
+      '36':
+        name:
+        material: black_stained_glass_pane
+      '44':
+        name:
+        material: black_stained_glass_pane
+      '0':
+        name:
+        material: black_stained_glass_pane
+      '46':
+        name:
+        material: black_stained_glass_pane
+      '47':
+        name:
+        material: black_stained_glass_pane
+      '48':
+        name:
+        material: black_stained_glass_pane
+      '49':
+        name:
+        material: black_stained_glass_pane
+      '50':
+        name:
+        material: black_stained_glass_pane
+      '51':
+        name:
+        material: black_stained_glass_pane
+      '52':
+        name:
+        material: black_stained_glass_pane
+      '53':
+        name:
+        material: black_stained_glass_pane
+      '20':
+        name: '&bJurong'
+        material: white_concrete
+        commands:
+        - open= jmenu_Sg_West_Jurong
+      '24': 
+        name: '&bClementi'
+        material: white_concrete
+        commands:
+        - warp sg,clementi
+      '30':
+        name: '&bDover Road'
+        material: white_concrete
+        commands:
+        - warp sg,dover_road
+      '32':
+        name: '&bChua Chu Kang'
+        material: white_concrete
+        commands:
+        - warp sg,cck
+  jmenu_Sg_West_Jurong:
+    perm: default
+    rows: '1'
+    title: 'Jurong'
+    command:  jmenu_Sg_West_Jurong
+    empty: air
+    item:   
+        '0':
+            material: white_concrete
+            name: '&bJurong Point'
+            commands:
+            - warp sg,jurong_point
+        '1':
+            material: white_concrete
+            name: '&bIMM Mall'
+            commands:
+            - warp sg,jurongeast,imm
+        '45':
+            material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+            name: '&cBack'
+            commands:
+            - open= jmenu_Sg_West

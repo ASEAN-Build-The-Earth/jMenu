@@ -1,0 +1,10 @@
+panels:
+# Most Progress
+  jmenu_Progress:
+    perm: default
+    rows: '6'
+    title: 'Most Progress'
+    command: jmenu_Progress
+    empty: air
+    emptyID: '15' 
+    item:

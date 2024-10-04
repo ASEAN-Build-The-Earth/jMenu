@@ -1,0 +1,105 @@
+panels:
+# jmenu_Mm
+  jmenu_Mm:
+    perm: default
+    rows: '6'
+    title: 'Myannmar '
+    command: jmenu_Mm
+    empty: air
+    emptyId: '15' 
+    item:      
+
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: 'Myannmar'
+      '29': ## - Yangon: mm,yangon
+        material: white_concrete
+        Id: 0
+        name: '&bYangon'
+        command:
+        - warp mm,yangon
+      '30': #- Mandalay • Mandalay Palace: mm,mandalay,palace
+        commands:
+        - open= jmenu_Mm_Mandalay
+      '31': ##Kachin
+        material: white_concrete
+        Id: 0
+        name: '&bKachin'
+      '32': #Sagaing
+        material: white_concrete
+        Id: 0jmenu_Mm
+        name: '&bSagaing'
+      '33': #- - Rakhaing
+        material: white_concrete
+        Id: 0
+        name: '&bRakhaing'
+      '34': ##- Nusa Tenggara c
+        material: white_concrete
+        Id: 0
+        name: '&bNusa Tenggara'
+      '35': #Papua
+        material: white_concrete
+        Id: 0
+        name: '&bPapua'
+      '36': #- Chin
+        material: white_concrete
+        Id: 0
+        name: '&bChin'
+      '37': #- Magwe
+        material: white_concrete
+        Id: 0
+        name: '&bMagwe'
+      '38': #- Kayah
+        material: white_concrete
+        Id: 0
+        name: '&bKayah'
+      '39': #- Bago
+        material: white_concrete
+        Id: 0
+        name: '&bBago'
+      '40': #Ayeyarwady
+        material: white_concrete
+        Id: 0
+        name: '&bAyeyarwady'
+      '41': #Mon
+        material: white_concrete
+        Id: 0
+        name: '&eMon'
+
+      '42': #- Kayin
+        material: white_concrete
+        Id: 0
+        name: '&eKayin'
+      '43': #Tanintharyi
+        material: white_concrete
+        Id: 0
+        name: '&eTanintharyi'
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu
+#- Mandalay • Mandalay Palace: 
+  jmenu_Mm_Mandalay: 
+    perm: default
+    rows: '3'
+    title: 'Myannmar - Mandalay'
+    command: jmenu_Mm_Mandalay
+    empty: air
+    emptyID: '4'
+    item:   
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cMyannmar'
+      '10': #- Mandalay • Mandalay Palace: mm,mandalay,palace
+        material: air
+        ID: 7
+        name: '&bMandalay Palace'
+        lore:
+        command:
+        - warp mm,mandalay,palace
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu_Mm

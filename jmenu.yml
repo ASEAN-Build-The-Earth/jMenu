@@ -1,0 +1,200 @@
+panels: 
+  #jmenu V1.0
+  # built from bmenu by TheStoneMC (built from amenu by iOnly__)
+  # 3rd generation suffering w/ joe
+  jmenu: 
+    #main jmenu panel
+    perm: default
+    rows: '6'
+    title: '&f&lBTE &9&ljmenu &e&lBETA &e&lBETA &e&lBETA'
+    command: jmenu
+    empty: air
+    emptyID: '4'
+    item:
+      '10':
+        material: COMPASS
+        name: '&2&l-----SERVER INFORMATION-----' # Server info
+        lore:
+        - '&basean.thatsnek.asia'
+        - '&bOnline : %cp-player-online-1%'
+        - '&bPING : %pinger_online_asean.thatsnek.to%'
+        - '&bPlayer Max : 20'
+        - '&bServer Location : Singapore, Singapore'
+        - '&2&l---------------------------'
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMxYTk5NGYyMDg0OWRjM2UzMWYwMWNkMzIzZTg5N2NhYTA3NWIwMTZiZDlmODVmZDg0ZjdlMGFmZTAxNGM2NSJ9fX0=
+        name: '&c&cAssociation &fof &9SouthEast &eAsian &8Nations' # ASEAN head at the top
+        lore:
+        - '&d>>> Click Here For Information <<<'
+      '16':
+        material: cps= self
+        name: '&c&9>> %cp-player-name% << &8Charactor' # Player info
+        lore:
+        - '&2Display Name :&2&l %cp-player-displayname%'
+        - '&8(aka. %cp-player-name%)'
+        - '&8Ranks : %luckperms_prefix%'
+      '12':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3OTE2ZTRhODUyZjdlNmYzZjNkZTE5YzdmYjU3Njg2YTM3YmNlODM0YmQ1NDY4NGE3ZGJlZjhkNTNmYiJ9fX0=
+        name: '§c>> T§fh§1aila§fn§cd <<' # Thailand
+        lore:
+          - Bangkok
+          - Ayutthaya
+          - Chiang Mai
+        commands:
+        - open= jmenu_Th
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1N2I5ZDdkZDA0MTY5NDc4Y2ZkYjhkMGI2ZmQwYjhjODJiNjU2NmJiMjgzNzFlZTlhN2M3YzE2NzFhZDBiYiJ9fX0=
+        name: '§c>> Vi§eetn§cam <<' # Vietnam
+        lore:
+        - Ho Chi Minh
+        - Chua Chau
+        - Vung Tau
+        commands:
+        - open= jmenu_Vn
+      '14':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '§9>> Mal§eay§csia §f<<' # Malaysia
+        lore:
+        - Kuala Lumpur
+        - Selangor
+        - Sarawak
+        commands:
+        - open= jmenu_My
+      '43':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyODViZWEzYzhhMDJkYjEzOWZhOGVjNWNjNTg4NjE1YTk4NTUwNzI1ZjhlNjc2YzkzZmRiYzMzYjZiIn19fQ==
+        name: '&2>> Heads <<' # HDB "quick" acess
+        lore:
+        - '&8&l-------------------'
+        - '&7- Get a decorative head from HeadDatabase!'
+        - '&7- Tip: use /hdb for quick access'
+        commands:
+        - hdb
+      '21':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: '&f>> Sing&capore <<' # Singapore
+        lore:
+        - 'MBS'
+        - Punggol
+        - Jurong
+        commands:
+        - open= jmenu_Sg
+      '22':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JlNjNmY2FhMDIwM2Y4MDQ2ZmI5NjM3NWQwNzlhNWMwOWI0MTYxZDAxMTlkNzE5NDU2NmU2ODljYWIxOGY2OCJ9fX0=
+        name: '&c>> Indo&fnesia <<' # Indonesia
+        lore:
+        - ASEAN Headquaters, Jakarta
+        - This is the only build in Indonesia!
+        commands:
+        - warp id,aseanhq 
+      '23':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZjNTI2ZjlhMzM1YjYyZmViZTRlZjM3MzRiZTA2MGU5YTQ5MDZhYjE3OTJlMjI3OGI4OThhZmNmZDUxNWVhOCJ9fX0= 
+        name: '§9>> §cCam§fbo§cdia §9<<' # Cambodia
+        lore:
+        - 'Phnom Penh'
+        commands:
+        - open= jmenu_Ca
+      '30':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFiY2RiMzU1NGZmMzE3NTk4MjNhMTJiOWM4YjkxODZjZDI5NTQ0ZDE4NDE5ZGNlNTUxY2Y3ODNhZDAwNmNkZiJ9fX0=
+        name: '§f>> Phil§cippi§9nes <<' # Philippines
+        lore:
+        - Manila
+        - Cebu
+        - Davao
+        commands:
+        - open= jmenu_Ph
+      '37':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA1OWQ1OWViNGU1OWMzMWVlY2Y5ZWNlMmY5Y2YzOTM0ZTQ1YzBlYzQ3NmZjODZiZmFlZjhlYTkxM2VhNzEwIn19fQ==
+        commands: 
+        - msg= bruh
+        name: '&e&lBRUH BUTTON' # BRUH BUTTON!!!
+      '31':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIxM2UyYTQ1ZDhiOTYyOWZhOTU5MGFhNWEwYjhmYTI3ODI4YjI1MDY5YmM0ZTQ5NTYyZWJlZGE2MjhiYTVlNyJ9fX0=
+        commands:
+        - warp mm,mandalay,palace
+        name: '§6>> §2My§fanm§2ar §4<<' # Myanmar
+        lore:
+        - Mandalay Royal Palace
+        - This is the only build in Myanmar!
+      '32':
+     # mate (joe is becoming too british)
+        name: '>> &cL&9ao&cs&f <<'
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFiODgxMjQzM2FhNDAxNzk5ZTRhYzQyNDU4NGE5YmM2ZTA0MTg2NTYzYzY1NThiYmVhNjgyNGY4ZjM3NCJ9fX0=
+        commands:
+        - warp la,luangprabang,watxiengthong
+        lore:
+        - Wat Xieng Thong, Luang Prabang
+        - This is the only build in Laos!
+      '40':
+        name: '&2>>&eBr&fu&7n&eei&2, and &7Timor &cLeste&2<<' # More
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzZTk2ZGY2ZWQ0YjcwYTVhNzBmYzI5ZGNkZTkzMTRkYmU5NzY2OTY0NzRmMTIwZTBiMzBlYTVkN2I5NmIzYSJ9fX0=
+        lore:
+        - '&2These regions have not been built &lyet&l!'
+        - '&2If you are interested in building these area'
+        - '&2Apply for builder on our &9Discord &2server!'
+      '8':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQxNWFhY2U4OGEzMmI5ZWYyMjM3NDZlNGFmODVlY2Q2NGRkZDc4NjUzY2JjNmNkMGYxMjU2MzU3NjcifX19
+        name: '&6&lNOTE! ' # Notes
+        lore:
+        - '&7Click here'
+        commands:
+        - jmenu_Notes
+      '5':
+        name:
+        material: black_stained_glass_pane
+      '6':
+        name:
+        material: black_stained_glass_pane
+      '7':
+        name:
+        material: black_stained_glass_pane
+      '9':
+        name:
+        material: black_stained_glass_pane
+      '17':
+        name:
+        material: black_stained_glass_pane
+      '18':
+        name:
+        material: black_stained_glass_pane
+      '26':
+        name:
+        material: black_stained_glass_pane
+      '27':
+        name:
+        material: black_stained_glass_pane
+      '35':
+        name:
+        material: black_stained_glass_pane
+      '36':
+        name:
+        material: black_stained_glass_pane
+      '44':
+        name:
+        material: black_stained_glass_pane
+      '45':
+        name:
+        material: black_stained_glass_pane
+      '46':
+        name:
+        material: black_stained_glass_pane
+      '47':
+        name:
+        material: black_stained_glass_pane
+      '48':
+        name:
+        material: black_stained_glass_pane
+      '49':
+        name:
+        material: black_stained_glass_pane
+      '50':
+        name:
+        material: black_stained_glass_pane
+      '51':
+        name:
+        material: black_stained_glass_pane
+      '52':
+        name:
+        material: black_stained_glass_pane
+      '53':
+        name:
+        material: black_stained_glass_pane

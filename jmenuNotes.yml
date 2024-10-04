@@ -1,0 +1,10 @@
+panels:
+# Notes
+  jmenu_Notes:
+    perm: default
+    rows: '6'
+    title: 'Notes'
+    command: jmenu_Notes
+    empty: air
+    emptyID: '15' 
+    item:     

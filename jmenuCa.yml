@@ -1,0 +1,103 @@
+panels:
+#Cambodia
+  jmenu_Ca:
+    perm: default
+    rows: '6'
+    title: 'Cambodia'
+    command: jmenu_Ca
+    empty: air
+    emptyID: '15' 
+    item:      
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZjNTI2ZjlhMzM1YjYyZmViZTRlZjM3MzRiZTA2MGU5YTQ5MDZhYjE3OTJlMjI3OGI4OThhZmNmZDUxNWVhOCJ9fX0= 
+        name: 'Cambodia'
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        commands:
+        - open= jmenu
+      '30':
+        material: white_concrete
+        name: '&bPhnom Penh'
+        commands:
+        - warp cam,phnompenh
+      '32':
+        material: white_concrete
+        name: '&bPhnom Penh Central Market'
+        commands:
+        - warp cam,phnompenh,market
+      '1': # Outline (bedrock wont like it but deal with it)
+        name: 
+        material: black_stained_glass_pane
+      '2':
+        name: 
+        material: black_stained_glass_pane
+      '3':
+        name: 
+        material: black_stained_glass_pane
+      '4':
+        name: 
+        material: black_stained_glass_pane
+      '5':
+        name:
+        material: black_stained_glass_pane
+      '6':
+        name:
+        material: black_stained_glass_pane
+      '7':
+        name:
+        material: black_stained_glass_pane
+      '8':
+        name:
+        material: black_stained_glass_pane
+      '9':
+        name:
+        material: black_stained_glass_pane
+      '17':
+        name:
+        material: black_stained_glass_pane
+      '18':
+        name:
+        material: black_stained_glass_pane
+      '26':
+        name:
+        material: black_stained_glass_pane
+      '27':
+        name:
+        material: black_stained_glass_pane
+      '35':
+        name:
+        material: black_stained_glass_pane
+      '36':
+        name:
+        material: black_stained_glass_pane
+      '44':
+        name:
+        material: black_stained_glass_pane
+      '0':
+        name:
+        material: black_stained_glass_pane
+      '46':
+        name:
+        material: black_stained_glass_pane
+      '47':
+        name:
+        material: black_stained_glass_pane
+      '48':
+        name:
+        material: black_stained_glass_pane
+      '49':
+        name:
+        material: black_stained_glass_pane
+      '50':
+        name:
+        material: black_stained_glass_pane
+      '51':
+        name:
+        material: black_stained_glass_pane
+      '52':
+        name:
+        material: black_stained_glass_pane
+      '53':
+        name:
+        material: black_stained_glass_pane
